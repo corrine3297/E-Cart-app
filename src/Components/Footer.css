@@ -1,0 +1,18 @@
+.links{
+    width: 200px;
+}
+@media (max-width:900px) {
+    .content{
+        padding-bottom: 20px;
+        width:350px;
+    }
+    .footer-content {
+        width: 100%;
+        flex-direction: column;
+        /* background-color: black; */
+    }
+    .website,.links,.guides, .contact{
+        padding-bottom: 20px;
+    }
+
+}
